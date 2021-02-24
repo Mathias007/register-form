@@ -22,6 +22,7 @@
                         required
                         minlength="3"
                         maxlength="50"
+                        name="name"
                     />
                 </div>
                 <!-- Phone Number -->
@@ -33,6 +34,7 @@
                         placeholder="666-666-666"
                         required
                         pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+                        name="phone"
                     />
                 </div>
                 <!-- Email Address -->
@@ -43,6 +45,7 @@
                         id="email"
                         placeholder="email@address.com"
                         required
+                        name="email"
                     />
                 </div>
                 <!-- Website URL -->
@@ -53,6 +56,7 @@
                         id="website"
                         placeholder="https://egildia.pl"
                         required
+                        name="website"
                     />
                 </div>
                 <!-- Password -->
@@ -76,6 +80,7 @@
                         placeholder="Confirm Password"
                         required
                         pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
+                        name="password"
                     />
                 </div>
                 <button type="submit">Register</button>
